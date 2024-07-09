@@ -1,0 +1,34 @@
+.emoji-card {
+  width: 22%;
+  list-style-type: none;
+  border: 2px solid #ffffff30;
+  border-radius: 15%;
+  background-color: #ffffff33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-right: 17px;
+  margin-bottom: 17px;
+  cursor: pointer;
+}
+
+.emoji-btn {
+  width: 80%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.emoji-img {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .emoji-card {
+    width: 30%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+}

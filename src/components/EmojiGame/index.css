@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  font-family: roboto;
+  box-sizing: border-box;
+}
+
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.emoji-container {
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.emoji-list {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 576px) {
+  .emoji-list {
+    padding-top: 10px;
+  }
+}
